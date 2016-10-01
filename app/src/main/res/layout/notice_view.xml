@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/name_layout_notice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/view_header_notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_circle"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notice_view_notice_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Avoid Gas Fire"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/notice_view_notice_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="4 pm, 4th April 2016"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/notice_view_notice_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="It is hereby warning for all resident of NAVANA Sorrento to put out the gas burner after cooking. We have come to know that some of the residents do not put out the gas burner. It is highly Dangesrous!. Please put out the fire on time. It will be safe."
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1021324877279",
+    "firebase_url": "https://rhnavana.firebaseio.com",
+    "project_id": "rhnavana",
+    "storage_bucket": "rhnavana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021324877279:android:6a92fa5d48b4dbaf",
+        "android_client_info": {
+          "package_name": "com.rh_navana_sorrento_am"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021324877279-o3732kpeu31s6g8q1snv6v98d516oi61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcNAeC64dboj5gIQa9i8AePwH6x6P64YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

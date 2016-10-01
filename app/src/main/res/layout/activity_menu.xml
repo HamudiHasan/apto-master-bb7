@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onNotice"
+                android:stateListAnimator="@android:anim/fade_out">
+
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_notice" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NOTICES" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onEmergency">
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_emergency" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EMERGENCY" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onServiceCharges">
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_service_charges" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SERVICE CHARGES" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onPhonebook">
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_phonebook" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PHONEBOOK" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp">
+                <LinearLayout
+                    android:onClick="onRulesBook"
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_rules_book" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RULES BOOK" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp">
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onServicePerson"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_service_person" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SERVICE PERSON" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onDevelopment">
+
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDevelopment"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_development" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEVELOPMENT" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="5dp"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:elevation="6dp"
+                android:onClick="onWhoWeAre">
+
+                <LinearLayout
+                    style="@style/op_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_about_us" />
+
+                    <TextView
+                        style="@style/style_option_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WHO WE ARE" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
